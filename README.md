@@ -6,7 +6,7 @@ This repository contains the files used for generating the [Mono website](http:/
 The site uses [Jekyll](http://jekyllrb.com), a static site generator. GitHub Pages, where the site is hosted, natively supports Jekyll so every time someone pushes to this repository, the website will be built and updated. For hosting it yourself, see [Setting up a local copy of the website](#setting-up-a-local-copy-of-the-website).
 
 Contributing to the website
----------------------------
+===========================
 
 **Note:** Major issues or feature requests should be filed on the [issue tracker](https://github.com/mono/website/issues) first, so we can discuss the implications.
 
@@ -22,7 +22,7 @@ After you've finished your changes, enter a proper summary and description and c
 ![Propose file change](https://cloud.githubusercontent.com/assets/1376924/3712481/52423448-1517-11e4-8aa8-9c9f9befb6bc.png)
 
 Setting up a local copy of the website
---------------------------------------
+=====================================
 
 For larger changes, using the web-based editor on GitHub is not really convenient. A better way is to setup a local copy of the website where you can experiment.
 
@@ -43,7 +43,7 @@ The site should now be running locally:
 ![website](https://cloud.githubusercontent.com/assets/1376924/3712425/c1ab2e9c-1513-11e4-9df2-6e69d461c3cf.png)
 
 Repository structure
---------------------
+====================
 
  - `_includes` - *special folder* contains snippets that can be included via `{% include file.html %}` in other pages
  - `_layouts` - *special folder* contains the layouts that are shared between pages. Layouts can be inherited, the root layout is `base.html`.
@@ -59,7 +59,7 @@ Repository structure
  - `news` - lists the blog pages from the `_posts` directory
 
 Writing a blog post
--------------------
+===================
 
 Blogging is very easy with Jekyll. Browse to `_posts` directory, copy the Markdown file `_TEMPLATE.md` and rename that file following the file name convention: `YEAR-MONTH-DAY-title.md`. Then open the file you renamed and follow the steps there to complete writing a blog post.
 
